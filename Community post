@@ -1,0 +1,29 @@
+<div id="community-tab">
+  <h1>Community</h1>
+  <button onclick="showApproveUser()">Approve User</button>
+  <button onclick="showAnnouncements()">Announcements</button>
+
+  <div id="approve-user" style="display:none;">
+    <h2>Approve User</h2>
+    <button onclick="showGeneralDiscussion()">General Discussion</button>
+    <button onclick="showSports()">Sports</button>
+    <button onclick="showTech()">Tech</button>
+    <button onclick="showEvents()">Events</button>
+    <button onclick="showAdmins()">Admins</button>
+  </div>
+
+  <div id="announcements" style="display:none;">
+    <h2>Announcements</h2>
+    <button onclick="showGeneralDiscussion()">General Discussion</button>
+    <button onclick="showSports()">Sports</button>
+    <button onclick="showTech()">Tech</button>
+    <button onclick="showEvents()">Events</button>
+    <button onclick="showAdmins()">Admins</button>
+    <form>
+        <label>Message:</label>
+        <textarea id="message"></textarea>
+        <button type="submit" onclick="sendMessage()">Send</button>
+    </form>
+  </div>
+
+</div>
